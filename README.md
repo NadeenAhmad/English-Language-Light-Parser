@@ -15,3 +15,5 @@ nouns, twenty verbs (with the past tense inflection), twenty adjectives, adverbs
 * A parse tree is represented  as follows:  
 a) l, where l is the label of a leaf.    
 b) p(l1, l2, . . . , ln), where p is a label of a parent node and li is the ith sub-tree thereof,where left-to-right order is assumed.  
+* Input example : **?-  s(T,[the,boy,pushed,a,box],[]).**
+* Output example: **T = ss(nounP(det(the), noun(boy)), verbP(verb(pushed), nounP(det(a), noun(box)))) .**
